@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { UsersModule } from './users/users.module';
+import { HttpClientModule } from '@angular/common/http'
+import { UserService } from './user.service';
 
 @NgModule({
   declarations: [
@@ -23,8 +25,12 @@ import { UsersModule } from './users/users.module';
     AppRoutingModule,
     FormsModule,
     // UsersModule
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+      UserService
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

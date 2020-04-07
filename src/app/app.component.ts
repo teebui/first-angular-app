@@ -15,5 +15,9 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'my-angular-min-site-with-routing';
+  title = ':: My Site ::';
+
+  constructor() {}
+
+  ngOnInit() { }
 }
