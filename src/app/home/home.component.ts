@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
-          This is my Home page!
+          Welcome to my first Angular app!!!
         </h1>
       </div>
     </div>
